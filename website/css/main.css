@@ -1,0 +1,101 @@
+body {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-image: url("img/background.png");
+}
+
+/* Style the header */
+.header {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.logo {
+  text-align: left;
+  margin: 12px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.content {
+  height: 645px;
+  width: 74%;
+  margin: 8px;
+  margin-top: 30px;
+  margin-left: 90px;
+  border-width: 4px;
+  border-radius: 4px;
+  padding: 12px;
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.226);
+  border: black;
+  border-style: solid;
+  float: left;
+  text-align: left;
+}
+
+.wrapper {
+  display: flex;
+  gap: 1px;
+}
+
+.content-side {
+  float: left;
+  height: 395px;
+  min-height: 345px;   /* optional, keeps a minimum size */
+  width: 44%;
+  margin: 8px;
+  margin-top: 30px;
+  margin-left: 10px;
+  border-width: 4px;
+  border-radius: 4px;
+  padding: 9px;
+  color: rgb(253, 255, 154);
+  background: rgba(0, 0, 0, 0.226);
+  border: black;
+  border-style: solid;
+  text-align: left;
+}
+
+.side-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-extra {
+  width: 44%;
+  margin: 8px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-width: 4px;
+  border-radius: 4px;
+  padding: 9px;
+  color: rgb(253, 255, 154);
+  background: rgba(0, 0, 0, 0.226);
+  border: black;
+  border-style: solid;
+  text-align: left;
+}
+
+.button {
+  text-decoration: none;
+  height: 20px;
+  border-width: 4px;
+  border-radius: 4px;
+  padding: 9px;
+  margin: 6px;
+  color: rgb(255, 255, 255);
+  background: rgba(196, 0, 0, 0.527);
+  border: black;
+  border-style: solid;
+  text-align: center;
+}
+
+.content-extra a {
+  text-decoration: none;
+}
+
+.button:hover {
+  background: rgba(255, 0, 0, 0.219);
+  cursor: pointer;
+}
